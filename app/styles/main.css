@@ -21,13 +21,15 @@ will be correctly compiled during `gulp serve` and `gulp`
 
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
+  text-align: center;
   margin: 0;
   padding: 0;
 }
 .mdl-demo .mdl-layout__header-row {
-  padding-left: 40px;
+  text-align: center;
 }
 .mdl-demo .mdl-layout.is-small-screen .mdl-layout__header-row h3 {
+  text-align: center;
   font-size: inherit;
 }
 .mdl-demo .mdl-layout__tab-bar-button {
@@ -80,6 +82,7 @@ html, body {
 .mdl-demo.mdl-demo .mdl-card__supporting-text h4 {
   margin-top: 0;
   margin-bottom: 20px;
+  text-align: center;
 }
 .mdl-demo .mdl-card__actions {
   margin: 0;
@@ -119,12 +122,13 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .mdl-demo section > .section__play-btn {
   min-height: 200px;
 }
 .mdl-demo section > header > .material-icons {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .mdl-demo section > button {
   position: absolute;
@@ -163,22 +167,25 @@ html, body {
   height: 100px;
   border-radius: 50px;
   margin: 8px 32px;
+  text-align: center;
 }
 .mdl-demo .is-small-screen section.section--footer .section__circle--big {
   width: 50px;
   height: 50px;
   border-radius: 25px;
   margin: 8px 16px;
+  text-align: center;
 }
 .mdl-demo section.section--footer {
-  padding: 64px 0;
   margin: 0 -8px -8px -8px;
+  text-align: center;
 }
 .mdl-demo section.section--center .section__text:not(:last-child) {
   border-bottom: 1px solid rgba(0,0,0,.13);
 }
 .mdl-demo .mdl-card .mdl-card__supporting-text > h3:first-child {
   margin-bottom: 24px;
+  text-align: center;
 }
 .mdl-demo .mdl-layout__tab-panel:not(#overview) {
   background-color: white;
